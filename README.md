@@ -1,6 +1,5 @@
 # docker-ros2-desktop-vnc
 
-echo "STARTING VPN" && sudo docker run -it -d --rm --privileged -v "/home/user/personalkeys/${GUAC_USERNAME}:/var/opt/cprocsp/keys/root/sol1.000/" --net=guac_pam2 --name epk.vpn.personal."${GUAC_USERNAME}" local/forticlient && echo "VPN STARTED" && /bin/bash
 
 [![Publish to Registry (Humble)](https://github.com/Tiryoh/docker-ros2-desktop-vnc/actions/workflows/deploy-humble.yml/badge.svg)](https://github.com/Tiryoh/docker-ros2-desktop-vnc/actions/workflows/deploy-humble.yml)
 [![Publish to Registry (Iron)](https://github.com/Tiryoh/docker-ros2-desktop-vnc/actions/workflows/deploy-iron.yml/badge.svg)](https://github.com/Tiryoh/docker-ros2-desktop-vnc/actions/workflows/deploy-iron.yml)
